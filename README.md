@@ -1,5 +1,18 @@
 # SQL
 
+## (20.05.06) HAVING
+GROUP BY의 조건절이다. (WHERE 같은)
+
+```
+SELECT NAME, COUNT(NAME) AS COUNT
+FROM ANIMAL_INS
+WHERE NAME IS NOT NULL
+GROUP BY NAME 
+HAVING COUNT >= 2
+```
+
+예제 : p59041.sql
+
 ## (20.05.04) GROUP BY
 데이터들을 (같은 컬럼값을 기준으로) 원하는 그룹으로 나눈다.
 
