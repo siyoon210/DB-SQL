@@ -1,5 +1,15 @@
 # SQL
 
+# IF
+if ( 조건문, 참일때 값, 거짓일때 값)
+
+```
+SELECT ANIMAL_TYPE, IF (ISNULL(NAME), "No name", NAME), SEX_UPON_INTAKE
+FROM ANIMAL_INS
+```
+
+예제 : p59410.sql
+
 ## (20.05.06) HAVING
 GROUP BY의 조건절이다. (WHERE 같은)
 
