@@ -1,5 +1,16 @@
 # SQL
 
+# (20.05.10) WHERE IN
+여러 조건을 포함해야 하는 경우
+
+```
+SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE
+FROM ANIMAL_INS
+WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')  
+```
+
+예제 : p59046.sql
+
 # (20.05.09) IF
 if ( 조건문, 참일때 값, 거짓일때 값)
 
